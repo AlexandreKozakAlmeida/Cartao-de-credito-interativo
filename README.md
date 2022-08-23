@@ -1,3 +1,32 @@
+# Cartão de crédito interativo
+
+Esse projeto está postado no site do https://www.frontendmentor.io/challenges
+
+## Este desafio me ajudou a: 
+* entender um pouco mais de javascript
+* Usar a interação de inputs com textos html, o que eu achei muito legal de se fazer.
+
+## O que pretendo fazer:
+
+* Validação completa do formulário.
+* Mensagens de erro no cadastro.
+* utilizar de máscaras para inputs (algo que ainda não aprendi mas estou correndo atrás de saber).
+
+## Projeto feito com:
+
+* HTML
+* CSS
+* JAVASCRIPT
+
+
+Repositório no github: https://github.com/AlexandreKozakAlmeida/Cartao-de-credito-interativo
+
+
+
+Github Page do projeto: https://alexandrekozakalmeida.github.io/Cartao-de-credito-interativo/
+
+
+
 # Frontend Mentor - Interactive card details form
 
 ![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)
