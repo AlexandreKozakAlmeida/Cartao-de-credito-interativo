@@ -175,9 +175,15 @@ form.confirmation {
 }
 
 @media screen and (min-width: 781px) {
+   
+    /************** BODY GERAL*********/
+
     body {
         display: flex;
     }
+
+    /********** HEADER (LEFT SIDE "ASIDE") ****/
+
     header {
         height: 100vh;
         width: 50vw;
@@ -203,8 +209,8 @@ form.confirmation {
     
     #cardNumber {
        top: 23rem;
-       left: 49%;
-       margin-left: -275px;
+       left: 44%;
+       margin-left: -237px;
     }
 
     .moreInfos {
@@ -218,6 +224,8 @@ form.confirmation {
         top: 68px;
         left: 242px;
     }
+
+    /****************** FORM AND INPUTS *******/
 
     .fillData form {
         margin: 62px auto;
