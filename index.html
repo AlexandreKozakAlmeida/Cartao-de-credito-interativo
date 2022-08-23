@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Interactive Card</title>
+</head>
+<body>
+    <header>
+      <img src="./images/bg-card-back.png" alt="" class="bg-card-image">
+      <img src="./images/bg-card-front.png" alt="" class="front-card-image">
+      <div class="cardLogo">
+        <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="18.478" ry="18.5" fill="#fff"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
+      </div> <!--CARD LOGO-->
+      <p id="cardNumber">
+        0000 0000 0000 0000
+      </p> <!--CARD NUMBER-->
+     <div class="moreInfos">
+      <p id="titularName">
+        Your Name Here
+     </p>
+     <p id="expDate">
+      0000
+     </p>
+     </div>
+    </header>
+    <section class="fillData">
+      <form id="form">
+          <label for="">
+             Cardholder name
+          </label>
+          <input id="fillNameInput" type="text" required placeholder="Ex: Anthony Velasquez" maxlength="21">
+
+          <label for="">
+            Card number
+          </label>
+          <input id="fillCardNumberInput" type="number" required maxlength="16" minlength="16" placeholder="Numbers with spaces. Ex: 1234 567 8910 ">
+
+          <div class="expAndVerification">
+          <div class="labels">
+            <label for="">
+              Exp.date  (MM/YY)
+            </label>
+            <label for="">
+              cvc
+            </label>
+          </div>
+            <div class="inputs">
+              <input id="month" type="month" required>
+              <input id="fillExpDateInput" type="number" required placeholder="Four numbers" maxlength="4">
+            </div>
+            <button id="submitForm" type="submit" >
+              confirm
+          </button>
+        </div>
+    
+        </form>
+    </section>
+
+    <script src="./interactionInputs.js"></script>
+</body>
+</html>
